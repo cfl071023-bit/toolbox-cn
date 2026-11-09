@@ -1,6 +1,6 @@
 # 静态部署 / Static deployment
 
-当前为 Vue + Vite 的纯静态应用，无后端、数据库或服务密钥。本文仅提供部署步骤；没有创建仓库、配置域名或部署站点。任何实际发布需项目所有者另行批准。
+当前为 Vue + Vite 的纯静态应用，无后端、数据库或服务密钥。本仓库已由所有者授权发布到 GitHub Pages，当前地址与首次发布证据见 [PUBLICATION.md](PUBLICATION.md)。后续推送 main 会由 GitHub Actions 验证并自动部署；不使用其他托管商。
 
 ## 构建与检查 / Build and inspect
 
@@ -51,3 +51,4 @@ Hash routes such as `/#json` are handled in the browser, so tool navigation does
 现有路由采用 #json、#pdf-merge 等 hash，刷新只请求 /toolbox-cn/，无需伪造 history fallback 或 404 重定向。许可和源码下载也使用相同 base。工作流在严格静态服务上逐项处理 55 个工具后才上传部署产物；不需要自建密钥或第三方托管。上游完整源码与 GPL、版权仍随 source.zip 提供。
 
 部署方法参照 https://vite.dev/guide/static-deploy.html 与 https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages。
+
