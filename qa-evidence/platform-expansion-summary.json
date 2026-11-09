@@ -1,0 +1,542 @@
+{
+  "version": "0.3.0-dev",
+  "date": "2026-11-09",
+  "existing": 30,
+  "added": 25,
+  "totalVerified": 55,
+  "incompleteExposed": 0,
+  "externalServices": 0,
+  "unit": {
+    "pass": 116,
+    "fail": 0
+  },
+  "productionE2E": {
+    "startTime": "2026-11-09T12:42:56.872Z",
+    "duration": 129413.259,
+    "expected": 116,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "npmAudit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "tools": [
+    {
+      "id": "image",
+      "name": "图片压缩",
+      "category": "图片与设计",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:image 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "qr",
+      "name": "二维码生成",
+      "category": "二维码工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:qr 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "diff",
+      "name": "文字对比",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:diff 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "json",
+      "name": "JSON 格式化",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:json 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "base64",
+      "name": "Base64 编解码",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:base64 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "time",
+      "name": "时间戳转换",
+      "category": "日常实用",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:time 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "uuid",
+      "name": "UUID 生成",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:uuid 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "color",
+      "name": "颜色转换",
+      "category": "图片与设计",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:color 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "stats",
+      "name": "字数统计",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:stats 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "case",
+      "name": "英文大小写转换",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:case 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "dedupe",
+      "name": "文本去重与排序",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:dedupe 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "url-codec",
+      "name": "网址编码与解码",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:url-codec 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "url-parse",
+      "name": "网址结构分析",
+      "category": "网络工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:url-parse 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "json-yaml",
+      "name": "JSON 转 YAML",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:json-yaml 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "yaml-json",
+      "name": "YAML 转 JSON",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:yaml-json 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "json-csv",
+      "name": "JSON 转 CSV 表格",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:json-csv 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "csv-json",
+      "name": "CSV 转 JSON",
+      "category": "文件与格式转换",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:csv-json 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "xml",
+      "name": "XML 格式化",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:xml 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "sql",
+      "name": "SQL 格式化",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:sql 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "markdown",
+      "name": "Markdown 转 HTML",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:markdown 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "html",
+      "name": "HTML 转义与还原",
+      "category": "文字与文档",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:html 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "hash",
+      "name": "SHA-256 文本摘要",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:hash 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "token",
+      "name": "随机字符串生成",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:token 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "base",
+      "name": "进制转换",
+      "category": "开发工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:base 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "temperature",
+      "name": "温度换算",
+      "category": "日常实用",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:temperature 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "roman",
+      "name": "罗马数字转换",
+      "category": "日常实用",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:roman 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "subnet",
+      "name": "IPv4 子网计算",
+      "category": "网络工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:subnet 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "jwt",
+      "name": "JWT 内容解析",
+      "category": "网络工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:jwt 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "wifi",
+      "name": "Wi-Fi 二维码",
+      "category": "二维码工具",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:wifi 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "svg",
+      "name": "SVG 占位图生成",
+      "category": "图片与设计",
+      "new": false,
+      "status": "PASS",
+      "evidence": "audit.spec.js",
+      "case": "AUDIT:svg 实际输出、按钮、异常输入、移动操作和隐私"
+    },
+    {
+      "id": "pdf-merge",
+      "name": "PDF 合并",
+      "category": "PDF 与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:pdf-merge 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "pdf-split",
+      "name": "PDF 拆分与提取",
+      "category": "PDF 与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:pdf-split 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "image-crop",
+      "name": "图片裁剪",
+      "category": "图片与设计",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:image-crop 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "image-resize",
+      "name": "图片尺寸调整",
+      "category": "图片与设计",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:image-resize 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "image-convert",
+      "name": "图片格式转换",
+      "category": "图片与设计",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:image-convert 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "file-hash",
+      "name": "文件指纹校验",
+      "category": "隐私与安全",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:file-hash 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "file-base64",
+      "name": "文件转 Base64",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:file-base64 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "qr-read",
+      "name": "识别图片二维码",
+      "category": "二维码工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:qr-read 真实文件输出核验、离线、错误、下载与移动端"
+    },
+    {
+      "id": "md-preview",
+      "name": "Markdown 预览",
+      "category": "文字与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:md-preview 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "md-table",
+      "name": "Markdown 表格生成",
+      "category": "文字与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:md-table 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "percentage",
+      "name": "百分比计算",
+      "category": "日常实用",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:percentage 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "units",
+      "name": "常用单位换算",
+      "category": "日常实用",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:units 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "date-calc",
+      "name": "日期间隔计算",
+      "category": "日常实用",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:date-calc 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "regex",
+      "name": "正则表达式测试",
+      "category": "开发工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:regex 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "css-code",
+      "name": "CSS 格式化与压缩",
+      "category": "开发工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:css-code 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "js-code",
+      "name": "JS 格式化与压缩",
+      "category": "开发工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:js-code 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "json-view",
+      "name": "JSON 树状查看",
+      "category": "开发工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:json-view 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "json-diff",
+      "name": "JSON 结构对比",
+      "category": "开发工具",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:json-diff 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "json-xml",
+      "name": "JSON 转 XML",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:json-xml 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "xml-json",
+      "name": "XML 转 JSON",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:xml-json 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "json-toml",
+      "name": "JSON 转 TOML",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:json-toml 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "toml-json",
+      "name": "TOML 转 JSON",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:toml-json 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "list-compare",
+      "name": "名单与清单对比",
+      "category": "文字与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:list-compare 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "html-text",
+      "name": "网页代码提取文字",
+      "category": "文字与文档",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:html-text 实际输出、离线隐私、复制下载重置、错误与手机"
+    },
+    {
+      "id": "json-flat",
+      "name": "JSON 展平与还原",
+      "category": "文件与格式转换",
+      "new": true,
+      "status": "PASS",
+      "evidence": "platform.spec.js",
+      "case": "PLATFORM:json-flat 实际输出、离线隐私、复制下载重置、错误与手机"
+    }
+  ],
+  "notIntegrated": [
+    "PDF compression",
+    "OCR",
+    "Raster to vector SVG"
+  ],
+  "notTested": [
+    "Physical phones",
+    "Firefox",
+    "Safari",
+    "Public hosting",
+    "Maximum-size production workloads",
+    "Independent security audit"
+  ],
+  "finalSmoke": "PASS",
+  "screenshots": 6,
+  "sourceAndFrozenArtifacts": "PASS"
+}

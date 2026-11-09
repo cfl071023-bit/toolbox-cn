@@ -1,0 +1,212 @@
+[
+  {
+    "id": "image",
+    "cat": "image",
+    "name": "图片压缩",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "qr",
+    "cat": "qr",
+    "name": "二维码生成",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "diff",
+    "cat": "text",
+    "name": "文字对比",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "json",
+    "cat": "dev",
+    "name": "JSON 格式化",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "base64",
+    "cat": "convert",
+    "name": "Base64 编解码",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "time",
+    "cat": "daily",
+    "name": "时间戳转换",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "uuid",
+    "cat": "dev",
+    "name": "UUID 生成",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "color",
+    "cat": "image",
+    "name": "颜色转换",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "stats",
+    "cat": "text",
+    "name": "字数统计",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "case",
+    "cat": "text",
+    "name": "英文大小写转换",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "dedupe",
+    "cat": "text",
+    "name": "文本去重与排序",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "url-codec",
+    "cat": "convert",
+    "name": "网址编码与解码",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "url-parse",
+    "cat": "network",
+    "name": "网址结构分析",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "json-yaml",
+    "cat": "convert",
+    "name": "JSON 转 YAML",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "yaml-json",
+    "cat": "convert",
+    "name": "YAML 转 JSON",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "json-csv",
+    "cat": "convert",
+    "name": "JSON 转 CSV 表格",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "csv-json",
+    "cat": "convert",
+    "name": "CSV 转 JSON",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "xml",
+    "cat": "dev",
+    "name": "XML 格式化",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "sql",
+    "cat": "dev",
+    "name": "SQL 格式化",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "markdown",
+    "cat": "text",
+    "name": "Markdown 转 HTML",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "html",
+    "cat": "text",
+    "name": "HTML 转义与还原",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "hash",
+    "cat": "dev",
+    "name": "SHA-256 文本摘要",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "token",
+    "cat": "dev",
+    "name": "随机字符串生成",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "base",
+    "cat": "dev",
+    "name": "进制转换",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "temperature",
+    "cat": "daily",
+    "name": "温度换算",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "roman",
+    "cat": "daily",
+    "name": "罗马数字转换",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "subnet",
+    "cat": "network",
+    "name": "IPv4 子网计算",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "jwt",
+    "cat": "network",
+    "name": "JWT 内容解析",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "wifi",
+    "cat": "qr",
+    "name": "Wi-Fi 二维码",
+    "development": "PASS",
+    "production": "PASS"
+  },
+  {
+    "id": "svg",
+    "cat": "image",
+    "name": "SVG 占位图生成",
+    "development": "PASS",
+    "production": "PASS"
+  }
+]

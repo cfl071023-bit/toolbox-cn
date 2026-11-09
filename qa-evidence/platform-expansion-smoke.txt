@@ -1,0 +1,24 @@
+
+> toolbox-cn@0.3.0-dev test:smoke
+> node scripts/production-smoke.mjs
+
+Using existing local production preview on 5179.
+Smoke expansion: md-preview
+Smoke expansion: md-table
+Smoke expansion: percentage
+Smoke expansion: units
+Smoke expansion: date-calc
+Smoke expansion: regex
+Smoke expansion: css-code
+Smoke expansion: js-code
+Smoke expansion: json-view
+Smoke expansion: json-diff
+Smoke expansion: json-xml
+Smoke expansion: xml-json
+Smoke expansion: json-toml
+Smoke expansion: toml-json
+Smoke expansion: list-compare
+Smoke expansion: html-text
+Smoke expansion: json-flat
+PASS production smoke: original JSON, 22 earlier additions, 17 expansion text tools, PDF download/page count, real JPEG resize, Chinese QR decoding, lazy assets, GPL and both upstream source trees.
+

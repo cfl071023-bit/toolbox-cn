@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {deflateRawSync,inflateRawSync} from 'node:zlib';
+const table=Array.from({length:256},(_,i)=>{let c=i;for(let j=0;j<8;j++)c=c&1?0xedb88320^(c>>>1):c>>>1;return c>>>0});
+function crc(data){let c=0xffffffff;for(const b of data)c=table[(c^b)&255]^(c>>>8);return (c^0xffffffff)>>>0}
+export function readZip(file){const data=fs.readFileSync(file),entries=[];let at=0;while(data.readUInt32LE(at)===0x04034b50){const size=data.readUInt32LE(at+18),raw=data.readUInt32LE(at+22),n=data.readUInt16LE(at+26),extra=data.readUInt16LE(at+28),name=data.subarray(at+30,at+30+n).toString();const start=at+30+n+extra;const decoded=inflateRawSync(data.subarray(start,start+size));if(decoded.length!==raw||crc(decoded)!==data.readUInt32LE(at+14))throw new Error('ZIP integrity failure: '+name);entries.push({name,data:decoded});at=start+size;}return entries;}
+export function writeZip(target,entries){
+ const locals=[],central=[];let offset=0;
+ for(const entry of entries){const name=Buffer.from(entry.name.replaceAll('\\','/'));const data=Buffer.isBuffer(entry.data)?entry.data:Buffer.from(entry.data);const packed=deflateRawSync(data),checksum=crc(data);const h=Buffer.alloc(30);h.writeUInt32LE(0x04034b50);h.writeUInt16LE(20,4);h.writeUInt16LE(0x800,6);h.writeUInt16LE(8,8);h.writeUInt16LE(33,12);h.writeUInt32LE(checksum,14);h.writeUInt32LE(packed.length,18);h.writeUInt32LE(data.length,22);h.writeUInt16LE(name.length,26);locals.push(h,name,packed);const c=Buffer.alloc(46);c.writeUInt32LE(0x02014b50);c.writeUInt16LE(20,4);c.writeUInt16LE(20,6);c.writeUInt16LE(0x800,8);c.writeUInt16LE(8,10);c.writeUInt16LE(33,14);c.writeUInt32LE(checksum,16);c.writeUInt32LE(packed.length,20);c.writeUInt32LE(data.length,24);c.writeUInt16LE(name.length,28);c.writeUInt32LE(offset,42);central.push(c,name);offset+=h.length+name.length+packed.length;}
+ const directory=Buffer.concat(central),end=Buffer.alloc(22);end.writeUInt32LE(0x06054b50);end.writeUInt16LE(entries.length,8);end.writeUInt16LE(entries.length,10);end.writeUInt32LE(directory.length,12);end.writeUInt32LE(offset,16);fs.writeFileSync(target,Buffer.concat([...locals,directory,end]));
+}

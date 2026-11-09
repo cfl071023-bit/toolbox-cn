@@ -1,0 +1,23 @@
+export const cases=[
+ ['stats','你好 A\nB',{},'"中文字符数": 2'],
+ ['case','hello toolbox world',{},'HELLO TOOLBOX WORLD'],
+ ['dedupe','苹果\n香蕉\n苹果\n  橙子  ',{},'苹果\n香蕉\n橙子'],
+ ['url-codec','你好 世界',{},'%E4%BD%A0%E5%A5%BD%20%E4%B8%96%E7%95%8C'],
+ ['url-parse','https://example.com:8080/search?q=中文&tag=a&tag=b#top',{},'"hostname": "example.com"'],
+ ['json-yaml','{"name":"ToolBox CN","free":true}',{},'free: true'],
+ ['yaml-json','name: ToolBox CN\nfree: true\n',{},'"free": true'],
+ ['json-csv','[{"姓名":"小明","城市":"上海"},{"姓名":"小红","城市":"北京"}]',{},'姓名,城市\n小明,上海\n小红,北京'],
+ ['csv-json','姓名,城市\n小明,上海\n小红,北京',{},'"姓名": "小明"'],
+ ['xml','<root><user>小明</user></root>',{},'\n  <user>小明</user>\n'],
+ ['sql','select name from users where active=1;',{},'SELECT'],
+ ['markdown','# 你好\n\n**世界**',{},'<h1>你好</h1>'],
+ ['html','<h1>ToolBox & CN</h1>',{},'&lt;h1&gt;ToolBox &amp; CN&lt;/h1&gt;'],
+ ['hash','abc',{},'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad'],
+ ['token','',{length:24,alphabet:'hex'},/^[0-9a-f]{24}$/],
+ ['base','9007199254740993',{from:10,to:16},'20000000000001'],
+ ['temperature','25',{unit:'C'},'25 °C\n77 °F\n298.15 K'],
+ ['roman','2026',{},'MMXXVI'],
+ ['subnet','192.168.1.10/24',{},'"network": "192.168.1.0"'],
+ ['jwt','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c',{},'"name": "John Doe"'],
+ ['svg','<script>alert(1)</script>',{width:640,height:320,background:'#6366f1'},'&lt;script&gt;alert(1)&lt;/script&gt;']
+];

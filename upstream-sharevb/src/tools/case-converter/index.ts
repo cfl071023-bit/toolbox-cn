@@ -1,0 +1,30 @@
+import { defineTool } from '../tool';
+import { translate as t } from '@/plugins/i18n.plugin';
+
+export const tool = defineTool({
+  name: t('tools.case-converter.title'),
+  path: '/case-converter',
+  description: t('tools.case-converter.description'),
+  keywords: [
+    'case',
+    'converter',
+    'camelCase',
+    'capitalCase',
+    'constantCase',
+    'dotCase',
+    'headerCase',
+    'noCase',
+    'paramCase',
+    'pascalCase',
+    'pathCase',
+    'sentenceCase',
+    'snakeCase',
+    'titleCase',
+    'spongeCase',
+    'swapCase',
+  ],
+  component: () => import('./case-converter.vue'),
+  icon: defineAsyncComponent(() => import('@vicons/tabler/es/LetterCaseToggle')),
+  npmPackages: ['change-case'],
+  category: 'Text',
+});

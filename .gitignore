@@ -1,0 +1,17 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+public/source.zip
+release/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+
+# Unused upstream precompiled assets are preserved locally, not distributed.
+/upstream-sharevb/public/*
+!/upstream-sharevb/public/humans.txt

@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "releaseDate": "2026-11-09",
+  "state": "PREPARED_LOCAL_ONLY",
+  "published": false,
+  "deployed": false,
+  "tools": 30,
+  "unitTests": {
+    "passed": 58
+  },
+  "productionBrowser": {
+    "startTime": "2026-11-09T05:25:43.633Z",
+    "duration": 90010.686,
+    "expected": 77,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "source": "qa-evidence/release-production.json"
+  },
+  "cleanRoom": {
+    "npmCi": "PASS",
+    "unitTests": 58,
+    "build": "PASS",
+    "browserSmoke": "PASS"
+  },
+  "audit": {
+    "runtime": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "all": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    }
+  },
+  "screenshots": 8,
+  "styleHashes": {
+    "src/style.css": "18999037d1cd9e3b7b5e55fe7c4b73e775f23836a67a7caf802d1aa98c58a437",
+    "src/density.css": "5afff605e6f12061b209191c20e703e5615b8e45cf002ccaecbd2c05c5ad1337"
+  }
+}

@@ -1,0 +1,4 @@
+// Parser-based replacement for upstream regex minification, which corrupts strings/comments.
+const loads={};
+export async function prepareCode(id){return loads[id]??=Promise.all([import('prettier/standalone'),...(id==='css-code'?[import('prettier/plugins/postcss'),import('csso')]:[import('prettier/plugins/babel'),import('prettier/plugins/estree'),import('terser')])]);}
+export async function formatCode(id,input,operation){const css=id==='css-code';const [prettier,plugin,second,third]=await prepareCode(id);const formatted=await prettier.format(input,{parser:css?'css':'babel',plugins:css?[plugin.default]:[plugin.default,second.default],tabWidth:2});if(operation!=='minify')return formatted;return css?second.minify(input).css:(await third.minify(input,{module:false,compress:false,mangle:false})).code;}

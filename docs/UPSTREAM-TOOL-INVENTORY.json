@@ -1,0 +1,3960 @@
+{
+  "revision": {
+    "repository": "https://github.com/sharevb/it-tools",
+    "branch": "chore/all-my-stuffs",
+    "commit": "b5eace85dbdb247f832b2aa9967b9d570a84d1ce",
+    "commitDate": "2026-11-08T18:45:54+01:00",
+    "packageVersion": "2026.10.25",
+    "licenseDeclared": "GNU GPLv3",
+    "licenseSHA256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8",
+    "sourceDirectories": 480,
+    "scope": "Static source inventory only. Unselected upstream directories have not been functionally tested."
+  },
+  "tools": [
+    {
+      "id": "acceleration-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/acceleration-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ad-ldap-searcher",
+      "sourceDirectory": "upstream-sharevb/src/tools/ad-ldap-searcher",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "age-crypto",
+      "sourceDirectory": "upstream-sharevb/src/tools/age-crypto",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ai-prompt-splitter",
+      "sourceDirectory": "upstream-sharevb/src/tools/ai-prompt-splitter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "amortization-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/amortization-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "analog-scaling-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/analog-scaling-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "angle-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/angle-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ansi-escape-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/ansi-escape-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ansible-vault-crypt-decrypt",
+      "sourceDirectory": "upstream-sharevb/src/tools/ansible-vault-crypt-decrypt",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "api-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/api-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "area-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/area-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "argon2-hash",
+      "sourceDirectory": "upstream-sharevb/src/tools/argon2-hash",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "arpa-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/arpa-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ascii-text-drawer",
+      "sourceDirectory": "upstream-sharevb/src/tools/ascii-text-drawer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "aspect-ratio-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/aspect-ratio-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "barcode-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/barcode-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "barcode-reader",
+      "sourceDirectory": "upstream-sharevb/src/tools/barcode-reader",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "base64-file-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/base64-file-converter",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "file-base64"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "base64-hex-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/base64-hex-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "base64-string-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/base64-string-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "base64"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bash-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/bash-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "basic-auth-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/basic-auth-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bcrypt",
+      "sourceDirectory": "upstream-sharevb/src/tools/bcrypt",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bech32",
+      "sourceDirectory": "upstream-sharevb/src/tools/bech32",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "benchmark-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/benchmark-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bimi-dns-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/bimi-dns-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "binary-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/binary-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bip39-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/bip39-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bmi-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/bmi-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "bounce-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/bounce-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "calendar-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/calendar-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "camera-recorder",
+      "sourceDirectory": "upstream-sharevb/src/tools/camera-recorder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "card-picker",
+      "sourceDirectory": "upstream-sharevb/src/tools/card-picker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "case-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/case-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "case"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "certificate-key-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/certificate-key-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "charset-detector",
+      "sourceDirectory": "upstream-sharevb/src/tools/charset-detector",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "chmod-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/chmod-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "chmod-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/chmod-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "chronometer",
+      "sourceDirectory": "upstream-sharevb/src/tools/chronometer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "cidr-in-cidr",
+      "sourceDirectory": "upstream-sharevb/src/tools/cidr-in-cidr",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "citation-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/citation-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "cli-command-editor",
+      "sourceDirectory": "upstream-sharevb/src/tools/cli-command-editor",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "code-highlighter",
+      "sourceDirectory": "upstream-sharevb/src/tools/code-highlighter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "coin-flipper",
+      "sourceDirectory": "upstream-sharevb/src/tools/coin-flipper",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "color-contrast-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/color-contrast-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "color-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/color-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "color"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "color-wheel",
+      "sourceDirectory": "upstream-sharevb/src/tools/color-wheel",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "common-regex-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/common-regex-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "cookies-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/cookies-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "countdown",
+      "sourceDirectory": "upstream-sharevb/src/tools/countdown",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "crc-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/crc-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "credit-card-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/credit-card-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "cron-alarm",
+      "sourceDirectory": "upstream-sharevb/src/tools/cron-alarm",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "cron-expression-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/cron-expression-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "crontab-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/crontab-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "crop-image",
+      "sourceDirectory": "upstream-sharevb/src/tools/crop-image",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "image-crop"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "csr-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/csr-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-gradient-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-gradient-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-js-prettify-minify",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-js-prettify-minify",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "css-code",
+        "js-code"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-prettifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-prettifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-selectors-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-selectors-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-units-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-units-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "css-xpath-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/css-xpath-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "csv-to-data",
+      "sourceDirectory": "upstream-sharevb/src/tools/csv-to-data",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "csv-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/csv-to-json",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "csv-json"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "curl-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/curl-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "curl-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/curl-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "currency-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/currency-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "current-loop-4-20ma-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/current-loop-4-20ma-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "data-faker",
+      "sourceDirectory": "upstream-sharevb/src/tools/data-faker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "data-storage-unit-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/data-storage-unit-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "data-transfer-rate-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/data-transfer-rate-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "database-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/database-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "database-connection-string-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/database-connection-string-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "database-table-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/database-table-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "date-duration-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/date-duration-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "date-time-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/date-time-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "time"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "days-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/days-calculator",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "date-calc"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dbm-mw-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/dbm-mw-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dead-pixel",
+      "sourceDirectory": "upstream-sharevb/src/tools/dead-pixel",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "device-information",
+      "sourceDirectory": "upstream-sharevb/src/tools/device-information",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dice-roller",
+      "sourceDirectory": "upstream-sharevb/src/tools/dice-roller",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "diceware-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/diceware-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "distinct-words",
+      "sourceDirectory": "upstream-sharevb/src/tools/distinct-words",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "django-secret-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/django-secret-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dkim-dns-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/dkim-dns-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dmarc-dns-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/dmarc-dns-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dmarc-report-analyzer",
+      "sourceDirectory": "upstream-sharevb/src/tools/dmarc-report-analyzer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dns-propagation-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/dns-propagation-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dns-queries",
+      "sourceDirectory": "upstream-sharevb/src/tools/dns-queries",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dns-query",
+      "sourceDirectory": "upstream-sharevb/src/tools/dns-query",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dns-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/dns-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dnsbl-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/dnsbl-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-to-docker-run-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-to-docker-run-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-to-env-file",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-to-env-file",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-to-kubernetes",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-to-kubernetes",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-to-quadlets",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-to-quadlets",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-compose-validator",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-compose-validator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-image-downloader",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-image-downloader",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-inspect-to-docker-run",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-inspect-to-docker-run",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-pangolin-labels",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-pangolin-labels",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-run-to-docker-compose-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-run-to-docker-compose-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-run-to-kubernetes",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-run-to-kubernetes",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-run-to-quadlets",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-run-to-quadlets",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "docker-swarm-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/docker-swarm-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dockerfile-label-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/dockerfile-label-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "dockerfile-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/dockerfile-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "duplicate-line-finder",
+      "sourceDirectory": "upstream-sharevb/src/tools/duplicate-line-finder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "duration-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/duration-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ecdsa-key-pair-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ecdsa-key-pair-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ed25519-key-pair-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ed25519-key-pair-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "email-normalizer",
+      "sourceDirectory": "upstream-sharevb/src/tools/email-normalizer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "email-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/email-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "emoji-picker",
+      "sourceDirectory": "upstream-sharevb/src/tools/emoji-picker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "emv-tlv-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/emv-tlv-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "energy-computer",
+      "sourceDirectory": "upstream-sharevb/src/tools/energy-computer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "energy-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/energy-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "env-variables-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/env-variables-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "epc-qrcode-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/epc-qrcode-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "epub-to-markdown",
+      "sourceDirectory": "upstream-sharevb/src/tools/epub-to-markdown",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "eta-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/eta-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "eth-transaction-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/eth-transaction-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "excel-to-data",
+      "sourceDirectory": "upstream-sharevb/src/tools/excel-to-data",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "explainshell",
+      "sourceDirectory": "upstream-sharevb/src/tools/explainshell",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "extract-text-from-html",
+      "sourceDirectory": "upstream-sharevb/src/tools/extract-text-from-html",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "html-text"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "favicon-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/favicon-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "file-hasher",
+      "sourceDirectory": "upstream-sharevb/src/tools/file-hasher",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "file-hash"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "file-splitter",
+      "sourceDirectory": "upstream-sharevb/src/tools/file-splitter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "file-type",
+      "sourceDirectory": "upstream-sharevb/src/tools/file-type",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "firewalld-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/firewalld-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "fitness-computer",
+      "sourceDirectory": "upstream-sharevb/src/tools/fitness-computer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "floating-point-number-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/floating-point-number-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "folder-structure-diagram",
+      "sourceDirectory": "upstream-sharevb/src/tools/folder-structure-diagram",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "font-compare",
+      "sourceDirectory": "upstream-sharevb/src/tools/font-compare",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "food-energy-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/food-energy-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "force-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/force-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "fortune-wheel",
+      "sourceDirectory": "upstream-sharevb/src/tools/fortune-wheel",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "fraction-decimal-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/fraction-decimal-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "frequency-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/frequency-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "fstab-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/fstab-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "geo-coordinates-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/geo-coordinates-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "geo-distance-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/geo-distance-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gif-to-mp4",
+      "sourceDirectory": "upstream-sharevb/src/tools/gif-to-mp4",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "git-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/git-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "git-semantic-commit-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/git-semantic-commit-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gitattributes-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/gitattributes-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gitignore-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/gitignore-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gpt-token-encoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/gpt-token-encoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gpt-token-estimator",
+      "sourceDirectory": "upstream-sharevb/src/tools/gpt-token-estimator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gtin-validator",
+      "sourceDirectory": "upstream-sharevb/src/tools/gtin-validator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "gzip-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/gzip-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "har-sanitizer",
+      "sourceDirectory": "upstream-sharevb/src/tools/har-sanitizer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "hash-text",
+      "sourceDirectory": "upstream-sharevb/src/tools/hash-text",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "hash"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "hdd-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/hdd-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "heic-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/heic-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "hex-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/hex-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "hex-file-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/hex-file-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "hmac-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/hmac-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "htaccess-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/htaccess-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-cleaner",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-cleaner",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-entities",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-entities",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "html"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-minifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-minifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-prettifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-prettifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-to-data",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-to-data",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-to-markdown",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-to-markdown",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Useful next candidate; not selected for this bounded batch.",
+      "hasEntry": true
+    },
+    {
+      "id": "html-to-pdf",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-to-pdf",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Print/browser differences and document pagination require dedicated QA.",
+      "hasEntry": true
+    },
+    {
+      "id": "html-to-xhtml",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-to-xhtml",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "html-wysiwyg-editor",
+      "sourceDirectory": "upstream-sharevb/src/tools/html-wysiwyg-editor",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "htpasswd-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/htpasswd-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "http-status-codes",
+      "sourceDirectory": "upstream-sharevb/src/tools/http-status-codes",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "https-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/https-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "i-and-l-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/i-and-l-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "iana-whois-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/iana-whois-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "iban-validator-and-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/iban-validator-and-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ical-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ical-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ical-merger",
+      "sourceDirectory": "upstream-sharevb/src/tools/ical-merger",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ical-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/ical-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ico-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/ico-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ies-lighting-guidelines",
+      "sourceDirectory": "upstream-sharevb/src/tools/ies-lighting-guidelines",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "illuminance-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/illuminance-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-color-inverter",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-color-inverter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-comparer",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-comparer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-converter",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "image-convert"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-exif-reader",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-exif-reader",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Useful next candidate; broad image/camera fixture coverage required.",
+      "hasEntry": true
+    },
+    {
+      "id": "image-resizer",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-resizer",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "image-resize"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-to-ascii-art",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-to-ascii-art",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "image-to-css",
+      "sourceDirectory": "upstream-sharevb/src/tools/image-to-css",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "integer-base-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/integer-base-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "base"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "integers-to-ip",
+      "sourceDirectory": "upstream-sharevb/src/tools/integers-to-ip",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ip-cidr-to-range",
+      "sourceDirectory": "upstream-sharevb/src/tools/ip-cidr-to-range",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ip-geo-location",
+      "sourceDirectory": "upstream-sharevb/src/tools/ip-geo-location",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ip-include-exclude",
+      "sourceDirectory": "upstream-sharevb/src/tools/ip-include-exclude",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ip-range-to-cidr",
+      "sourceDirectory": "upstream-sharevb/src/tools/ip-range-to-cidr",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "iptables-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/iptables-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv4-address-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv4-address-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv4-range-expander",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv4-range-expander",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv4-subnet-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv4-subnet-calculator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "subnet"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv4-subnets-list",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv4-subnets-list",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv6-address-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv6-address-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv6-subnet-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv6-subnet-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ipv6-ula-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ipv6-ula-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "isbn-validator-and-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/isbn-validator-and-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "iso-3166-searcher",
+      "sourceDirectory": "upstream-sharevb/src/tools/iso-3166-searcher",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "iso-639-searcher",
+      "sourceDirectory": "upstream-sharevb/src/tools/iso-639-searcher",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jasypt-string-encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/jasypt-string-encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "javascript-obfuscator",
+      "sourceDirectory": "upstream-sharevb/src/tools/javascript-obfuscator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "javascript-prettifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/javascript-prettifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "javascript-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/javascript-to-json",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jq-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/jq-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jq-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/jq-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "js-unobfuscator",
+      "sourceDirectory": "upstream-sharevb/src/tools/js-unobfuscator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-diff",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-diff",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "json-diff"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-editor",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-editor",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-escaper",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-escaper",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-flatten-nestify",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-flatten-nestify",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "json-flat"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-linter",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-linter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-merger",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-merger",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-minify",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-minify",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-patch",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-patch",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-query",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-query",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-size-analyzer",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-size-analyzer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-sort-master",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-sort-master",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-string-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-string-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-csharp",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-csharp",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-csv",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-csv",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "json-csv"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-data",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-data",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-env",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-env",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-go",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-go",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-java",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-java",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-javascript",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-javascript",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-msgpack",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-msgpack",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-object",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-object",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-php",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-php",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-php-array",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-php-array",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-protobuf",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-protobuf",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-python",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-python",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-schema",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-schema",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-sql-ddl",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-sql-ddl",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-sql-insert",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-sql-insert",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-toml",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-toml",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "json-toml"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-toon",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-toon",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-ts",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-ts",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-typescript",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-typescript",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-xml",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-xml",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "json-xml"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-to-yaml-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-to-yaml-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "json-yaml"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "json-viewer",
+      "sourceDirectory": "upstream-sharevb/src/tools/json-viewer",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "json-view"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jsonpath-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/jsonpath-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jwt-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/jwt-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "jwt-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/jwt-parser",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "jwt"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "k6-script-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/k6-script-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "k8s-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/k8s-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "k8s-rbac-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/k8s-rbac-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "keyboard-layout-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/keyboard-layout-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "keyboard-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/keyboard-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "keycode-info",
+      "sourceDirectory": "upstream-sharevb/src/tools/keycode-info",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "length-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/length-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "levenshtein-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/levenshtein-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "list-comparer",
+      "sourceDirectory": "upstream-sharevb/src/tools/list-comparer",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "list-compare"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "list-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/list-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "dedupe"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "logrotate-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/logrotate-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "lorem-ipsum-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/lorem-ipsum-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "luhn-validator",
+      "sourceDirectory": "upstream-sharevb/src/tools/luhn-validator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mac-address-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/mac-address-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mac-address-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/mac-address-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mac-address-lookup",
+      "sourceDirectory": "upstream-sharevb/src/tools/mac-address-lookup",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mailto-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/mailto-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "many-units-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/many-units-converter",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "units"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-cheatsheet",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-cheatsheet",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-diff",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-diff",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-editor",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-editor",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-format-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-format-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-lorem-ipsum",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-lorem-ipsum",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-preview",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-preview",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "md-preview"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-table-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-table-generator",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "md-table"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-table-prettifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-table-prettifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-to-data",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-to-data",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-to-docx",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-to-docx",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-to-html",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-to-html",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "markdown"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-to-text",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-to-text",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "markdown-toc-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/markdown-toc-generator",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Useful next candidate; not selected for this bounded batch.",
+      "hasEntry": true
+    },
+    {
+      "id": "mass-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/mass-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "math-evaluator",
+      "sourceDirectory": "upstream-sharevb/src/tools/math-evaluator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "math-formats-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/math-formats-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "math-ocr",
+      "sourceDirectory": "upstream-sharevb/src/tools/math-ocr",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mermaid-exporter",
+      "sourceDirectory": "upstream-sharevb/src/tools/mermaid-exporter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "meta-tag-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/meta-tag-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mic-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/mic-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "middle-endian-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/middle-endian-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mime-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/mime-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mime-types",
+      "sourceDirectory": "upstream-sharevb/src/tools/mime-types",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mongo-objectid-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/mongo-objectid-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "morse-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/morse-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "msgpack-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/msgpack-to-json",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "mttdl-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/mttdl-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "multi-link-downloader",
+      "sourceDirectory": "upstream-sharevb/src/tools/multi-link-downloader",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "my-ip",
+      "sourceDirectory": "upstream-sharevb/src/tools/my-ip",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "nano-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/nano-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "nanoid-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/nanoid-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "network-utils",
+      "sourceDirectory": "upstream-sharevb/src/tools/network-utils",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": false
+    },
+    {
+      "id": "nginx-formatter",
+      "sourceDirectory": "upstream-sharevb/src/tools/nginx-formatter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "nginx-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/nginx-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "niceware-bytes-to-passphrase",
+      "sourceDirectory": "upstream-sharevb/src/tools/niceware-bytes-to-passphrase",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "nmap-command-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/nmap-command-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "numeronym-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/numeronym-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "objgen-html",
+      "sourceDirectory": "upstream-sharevb/src/tools/objgen-html",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "objgen-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/objgen-json",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ocr-image",
+      "sourceDirectory": "upstream-sharevb/src/tools/ocr-image",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Tesseract Chinese model package ~21.9 MB, plus workers/core/English data. Requires dedicated accuracy and offline asset testing.",
+      "hasEntry": true
+    },
+    {
+      "id": "online-wiktionary",
+      "sourceDirectory": "upstream-sharevb/src/tools/online-wiktionary",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "option43-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/option43-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "otp-code-generator-and-validator",
+      "sourceDirectory": "upstream-sharevb/src/tools/otp-code-generator-and-validator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "outlook-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/outlook-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pack-files-for-ai",
+      "sourceDirectory": "upstream-sharevb/src/tools/pack-files-for-ai",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "parquets-reader",
+      "sourceDirectory": "upstream-sharevb/src/tools/parquets-reader",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "paseto-encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/paseto-encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "paseto-signing",
+      "sourceDirectory": "upstream-sharevb/src/tools/paseto-signing",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "passphrase-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/passphrase-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "password-strength-analyser",
+      "sourceDirectory": "upstream-sharevb/src/tools/password-strength-analyser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "paste-as-markdown",
+      "sourceDirectory": "upstream-sharevb/src/tools/paste-as-markdown",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-compressor",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-compressor",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Ghostscript WASM package ~16.3 MB; AGPL-3.0 and large mobile-memory workload. Not integrated/tested.",
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-concat",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-concat",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "pdf-merge"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-encrypt",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-encrypt",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-extract",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-extract",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "pdf-split"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-linearize",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-linearize",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-signature-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-signature-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-text-extractor",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-text-extractor",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "PDF.js worker and CJK text extraction require dedicated file fixtures.",
+      "hasEntry": true
+    },
+    {
+      "id": "pdf-unlock",
+      "sourceDirectory": "upstream-sharevb/src/tools/pdf-unlock",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "percentage-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/percentage-calculator",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "percentage"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pgp-encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/pgp-encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pgp-file-encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/pgp-file-encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pgp-keygen",
+      "sourceDirectory": "upstream-sharevb/src/tools/pgp-keygen",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "phone-parser-and-formatter",
+      "sourceDirectory": "upstream-sharevb/src/tools/phone-parser-and-formatter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "php-array-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/php-array-to-json",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "picomatch-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/picomatch-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pin-code-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/pin-code-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ping",
+      "sourceDirectory": "upstream-sharevb/src/tools/ping",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pomodoro-timer",
+      "sourceDirectory": "upstream-sharevb/src/tools/pomodoro-timer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "port-numbers",
+      "sourceDirectory": "upstream-sharevb/src/tools/port-numbers",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "potrace",
+      "sourceDirectory": "upstream-sharevb/src/tools/potrace",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Upstream uses Node Buffer and multiple tracing backends. esm-potrace-wasm package declares GPL-2.0; redistribution compatibility not established. No fake embedded-image SVG.",
+      "hasEntry": true
+    },
+    {
+      "id": "power-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/power-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "powershell-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/powershell-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "pressure-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/pressure-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "properties-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/properties-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ptr-dns-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ptr-dns-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "punycode-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/punycode-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "qr-code-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/qr-code-decoder",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "qr-read"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "qr-code-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/qr-code-generator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "qr"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "qr-contact-info-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/qr-contact-info-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "quote-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/quote-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "raid-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/raid-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "random-line-picker",
+      "sourceDirectory": "upstream-sharevb/src/tools/random-line-picker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "random-numbers-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/random-numbers-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "random-port-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/random-port-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "regex-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/regex-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "regex-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/regex-tester",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "regex"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rem-px-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/rem-px-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "remove-background",
+      "sourceDirectory": "upstream-sharevb/src/tools/remove-background",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "remove-exif",
+      "sourceDirectory": "upstream-sharevb/src/tools/remove-exif",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Useful next candidate; metadata privacy needs explicit output verification.",
+      "hasEntry": true
+    },
+    {
+      "id": "resistor-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/resistor-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "restic-command-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/restic-command-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rj45-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/rj45-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rmb-numbers",
+      "sourceDirectory": "upstream-sharevb/src/tools/rmb-numbers",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "roman-numeral-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/roman-numeral-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "roman"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rsa-ecdsa-signing",
+      "sourceDirectory": "upstream-sharevb/src/tools/rsa-ecdsa-signing",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rsa-encryption",
+      "sourceDirectory": "upstream-sharevb/src/tools/rsa-encryption",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rsa-key-pair-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/rsa-key-pair-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rsvp-reader",
+      "sourceDirectory": "upstream-sharevb/src/tools/rsvp-reader",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rsync-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/rsync-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "rune-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/rune-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "running-pace-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/running-pace-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "safelink-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/safelink-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "saml-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/saml-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "screen-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/screen-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sed-command-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/sed-command-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sed-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/sed-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sensitive-data-masker",
+      "sourceDirectory": "upstream-sharevb/src/tools/sensitive-data-masker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "serial-console",
+      "sourceDirectory": "upstream-sharevb/src/tools/serial-console",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "shamirs-secret-sharing",
+      "sourceDirectory": "upstream-sharevb/src/tools/shamirs-secret-sharing",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sharepoint-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/sharepoint-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "shell-formatter",
+      "sourceDirectory": "upstream-sharevb/src/tools/shell-formatter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "shell-linearizer",
+      "sourceDirectory": "upstream-sharevb/src/tools/shell-linearizer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "short-urls-expander",
+      "sourceDirectory": "upstream-sharevb/src/tools/short-urls-expander",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "shutdown-command-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/shutdown-command-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "si-prefixes-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/si-prefixes-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sip-auth",
+      "sourceDirectory": "upstream-sharevb/src/tools/sip-auth",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sla-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/sla-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "slugify-string",
+      "sourceDirectory": "upstream-sharevb/src/tools/slugify-string",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "smart-raw-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/smart-raw-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "smart-text-replacer",
+      "sourceDirectory": "upstream-sharevb/src/tools/smart-text-replacer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "snowflake-id-extractor",
+      "sourceDirectory": "upstream-sharevb/src/tools/snowflake-id-extractor",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "social-link-sharer",
+      "sourceDirectory": "upstream-sharevb/src/tools/social-link-sharer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "software-licence-compatibility",
+      "sourceDirectory": "upstream-sharevb/src/tools/software-licence-compatibility",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sound-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/sound-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "speed-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/speed-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "spf-dns-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/spf-dns-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sql-minifier",
+      "sourceDirectory": "upstream-sharevb/src/tools/sql-minifier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sql-parameters",
+      "sourceDirectory": "upstream-sharevb/src/tools/sql-parameters",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "sql-prettify",
+      "sourceDirectory": "upstream-sharevb/src/tools/sql-prettify",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "sql"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ssl-cert-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/ssl-cert-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "stacktrace-prettier",
+      "sourceDirectory": "upstream-sharevb/src/tools/stacktrace-prettier",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "string-escaper",
+      "sourceDirectory": "upstream-sharevb/src/tools/string-escaper",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "string-obfuscator",
+      "sourceDirectory": "upstream-sharevb/src/tools/string-obfuscator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "svg-placeholder-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/svg-placeholder-generator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "svg"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "svg-previewer",
+      "sourceDirectory": "upstream-sharevb/src/tools/svg-previewer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "swagger-ui-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/swagger-ui-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "tab-to-spaces",
+      "sourceDirectory": "upstream-sharevb/src/tools/tab-to-spaces",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "tcp-udp-port-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/tcp-udp-port-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "tcpdump-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/tcpdump-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "temperature-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/temperature-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "temperature"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-diff",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-diff",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "diff"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-statistics",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-statistics",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "stats"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-to-binary",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-to-binary",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-to-nato-alphabet",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-to-nato-alphabet",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-to-unicode",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-to-unicode",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "text-to-unicode-names",
+      "sourceDirectory": "upstream-sharevb/src/tools/text-to-unicode-names",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "time-alarm",
+      "sourceDirectory": "upstream-sharevb/src/tools/time-alarm",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "timezone-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/timezone-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "tip-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/tip-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "tmux-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/tmux-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "token-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/token-generator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "token"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "toml-linter",
+      "sourceDirectory": "upstream-sharevb/src/tools/toml-linter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "toml-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/toml-to-json",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "toml-json"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "toml-to-yaml",
+      "sourceDirectory": "upstream-sharevb/src/tools/toml-to-yaml",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "toon-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/toon-to-json",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "torrent-to-magnet",
+      "sourceDirectory": "upstream-sharevb/src/tools/torrent-to-magnet",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "traefik-compose-maker",
+      "sourceDirectory": "upstream-sharevb/src/tools/traefik-compose-maker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "translator",
+      "sourceDirectory": "upstream-sharevb/src/tools/translator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "trigo-viewer",
+      "sourceDirectory": "upstream-sharevb/src/tools/trigo-viewer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ttl-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ttl-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ufw-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ufw-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "ulid-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/ulid-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "unicode-characters-to-java-entities-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/unicode-characters-to-java-entities-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "unicode-formatter",
+      "sourceDirectory": "upstream-sharevb/src/tools/unicode-formatter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "unicode-search",
+      "sourceDirectory": "upstream-sharevb/src/tools/unicode-search",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "unicode-to-gsm7",
+      "sourceDirectory": "upstream-sharevb/src/tools/unicode-to-gsm7",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-builder",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-builder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-cleaner",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-cleaner",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-encoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-encoder",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "url-codec"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-fanger",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-fanger",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-parser",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "url-parse"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-redirection-checker",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-redirection-checker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "url-text-fragment-maker",
+      "sourceDirectory": "upstream-sharevb/src/tools/url-text-fragment-maker",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "user-agent-parser",
+      "sourceDirectory": "upstream-sharevb/src/tools/user-agent-parser",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "utm-url-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/utm-url-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "uuid-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/uuid-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "uuid-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/uuid-generator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "uuid"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "vat-validator",
+      "sourceDirectory": "upstream-sharevb/src/tools/vat-validator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "vim-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/vim-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "visual-subnet-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/visual-subnet-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "voltage-0-10v-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/voltage-0-10v-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "volume-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/volume-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "volume-flow-rate-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/volume-flow-rate-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "watermarker",
+      "sourceDirectory": "upstream-sharevb/src/tools/watermarker",
+      "status": "DEFERRED_REVIEWED",
+      "toolboxIds": [],
+      "reason": "Useful next candidate; export and mobile controls require dedicated QA.",
+      "hasEntry": true
+    },
+    {
+      "id": "websocket-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/websocket-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "week-number-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/week-number-converter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "which-day",
+      "sourceDirectory": "upstream-sharevb/src/tools/which-day",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "wifi-qr-code-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/wifi-qr-code-generator",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "wifi"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "wireguard-config-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/wireguard-config-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "wpa-psk-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/wpa-psk-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "x-vr-spamcause-decoder",
+      "sourceDirectory": "upstream-sharevb/src/tools/x-vr-spamcause-decoder",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "x509-certificate-generator",
+      "sourceDirectory": "upstream-sharevb/src/tools/x509-certificate-generator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xml-formatter",
+      "sourceDirectory": "upstream-sharevb/src/tools/xml-formatter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "xml"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xml-linter",
+      "sourceDirectory": "upstream-sharevb/src/tools/xml-linter",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xml-to-json",
+      "sourceDirectory": "upstream-sharevb/src/tools/xml-to-json",
+      "status": "INTEGRATED_ADAPTED",
+      "toolboxIds": [
+        "xml-json"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xpath-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/xpath-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xpath-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/xpath-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "xslt-tester",
+      "sourceDirectory": "upstream-sharevb/src/tools/xslt-tester",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "yaml-flatten-nestify",
+      "sourceDirectory": "upstream-sharevb/src/tools/yaml-flatten-nestify",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "yaml-merger",
+      "sourceDirectory": "upstream-sharevb/src/tools/yaml-merger",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "yaml-to-json-converter",
+      "sourceDirectory": "upstream-sharevb/src/tools/yaml-to-json-converter",
+      "status": "EXISTING_EQUIVALENT",
+      "toolboxIds": [
+        "yaml-json"
+      ],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "yaml-to-toml",
+      "sourceDirectory": "upstream-sharevb/src/tools/yaml-to-toml",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "yaml-viewer",
+      "sourceDirectory": "upstream-sharevb/src/tools/yaml-viewer",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "zalgo",
+      "sourceDirectory": "upstream-sharevb/src/tools/zalgo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "zellij-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/zellij-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "zpool-calculator",
+      "sourceDirectory": "upstream-sharevb/src/tools/zpool-calculator",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "zpool-memo",
+      "sourceDirectory": "upstream-sharevb/src/tools/zpool-memo",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    },
+    {
+      "id": "zxcvbn-password-strength",
+      "sourceDirectory": "upstream-sharevb/src/tools/zxcvbn-password-strength",
+      "status": "NOT_SELECTED_NOT_TESTED",
+      "toolboxIds": [],
+      "reason": null,
+      "hasEntry": true
+    }
+  ]
+}

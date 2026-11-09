@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+/test-results/
+/playwright-report/
+/playwright/.cache/
+# Webkit with playwright creates a salt file
+salt
+# WSL can create Zone.Identifier
+*:Zone.Identifier
+.vercel
+
+components.d.ts
+
+# .vscode specific files: Include known configuration files, but ignore everything else inside the folder 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Ignore build or packaged VS Code extensions
+*.vsix
+*.tsbuildinfo
+stats.html

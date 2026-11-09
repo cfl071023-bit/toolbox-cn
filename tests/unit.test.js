@@ -1,0 +1,15 @@
+import {describe,it,expect} from 'vitest';
+import {runTool,compareText} from '../src/core';
+import {searchTools,tools} from '../src/catalog';
+describe('tool engines',()=>{
+it('formats JSON and rejects invalid input',()=>{expect(JSON.parse(runTool('json','{"x":[1,true]}'))).toEqual({x:[1,true]});expect(()=>runTool('json','{oops}')).toThrow()});
+it('preserves large numbers, decimal precision, repeated keys and escape sequences',()=>{const input=String.raw`{"n":9007199254740993,"fraction":0.12345678901234567890,"exp":1e309,"repeat":1,"repeat":2,"quote":"a\"b\\c","braces":"{}[],:","empty":[{},[]]}`;const output=runTool('json',input);expect(output).toContain('9007199254740993');expect(output).toContain('0.12345678901234567890');expect(output).toContain('1e309');expect(output).toContain('"repeat": 1,\n  "repeat": 2');expect(output).toContain(String.raw`"quote": "a\"b\\c"`);expect(()=>JSON.parse(output)).not.toThrow()});
+it('rejects impossible dates and handles leap years and explicit timezone',()=>{for(const s of ['2024-02-30T00:00:00Z','2023-02-29T00:00:00Z','2024-04-31T00:00:00Z'])expect(()=>runTool('time',s)).toThrow();expect(runTool('time','2024-02-29T08:00:00+08:00')).toContain('2024-02-29T00:00:00.000Z')});
+it.each([['将文字转成Base64','base64'],['generate a qr code','qr'],['generate uuid','uuid']])('finds mixed-language or natural queries: %s',(q,id)=>expect(searchTools(q)[0]?.id).toBe(id));
+it('roundtrips Chinese, emoji and Unicode Base64 with upstream utility',()=>{const s='你好🌏 café';expect(runTool('base64',runTool('base64',s),'decode')).toBe(s);expect(()=>runTool('base64','%%%','decode')).toThrow()});
+it('converts seconds, milliseconds and ISO consistently',()=>{for(const s of ['1704067200','1704067200000','2024-01-01T00:00:00Z'])expect(runTool('time',s)).toContain('2024-01-01T00:00:00.000Z');for(const s of ['', 'yesterday','2024-01-01'])expect(()=>runTool('time',s)).toThrow()});
+it('generates UUID v4 without duplicates in a sample',()=>{const ids=Array.from({length:100},()=>runTool('uuid'));expect(new Set(ids).size).toBe(100);ids.forEach(id=>expect(id).toMatch(/^[0-9a-f-]{14}4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/))});
+it('converts colors and rejects invalid ones',()=>{expect(runTool('color','#ff0000')).toContain('rgb(255, 0, 0)');expect(runTool('color','rgb(255, 0, 0)')).toContain('#ff0000');expect(()=>runTool('color','not-a-color')).toThrow()});
+it('compares text including Chinese and script-like plain text',()=>{const d=compareText('你好<script>','你好世界<script>');expect(d.find(x=>x.added).value).toBe('世界');expect(d.filter(x=>!x.removed).map(x=>x.value).join('')).toBe('你好世界<script>')});
+});
+describe('discovery',()=>{it.each(['图片变小','照片太大','make my image smaller','compress images'])('finds compression for %s',q=>expect(searchTools(q)[0]?.id).toBe('image'));it('filters, finds QR codes, and handles empty results',()=>{expect(searchTools('生成二维码')[0].id).toBe('qr');expect(searchTools('','image')).toHaveLength(tools.filter(t=>t.cat==='image').length);expect(searchTools('zzzzxxxx')).toHaveLength(0);expect(searchTools('')).toHaveLength(tools.length)})});

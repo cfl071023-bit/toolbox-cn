@@ -1,0 +1,29 @@
+const origin=process.env.TOOLBOX_BASE_URL??'http://127.0.0.1:5178';
+import {test,expect} from '@playwright/test';
+import {cases} from './advanced-cases';
+import {tools,categories} from '../src/catalog';
+import {extraTools} from '../src/extra-catalog';
+import jsQR from 'jsqr';
+import {PNG} from 'pngjs';
+for(const [id,input,options,expected] of cases)test(`新增工具 ${id}：实际输出、断网处理、无上传或输入持久化`,async({page,context})=>{
+ const requests=[],outside=[],errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!r.url().startsWith(origin)&&!r.url().startsWith('data:'))outside.push(r.url());if(!['GET','HEAD'].includes(r.method()))requests.push(r.url())});
+ await page.goto('/#'+id);await page.waitForLoadState('networkidle');await context.setOffline(true);
+ for(const [key,value] of Object.entries(options)){const field=page.locator('.tool-options label').filter({has:page.locator(`[data-option="${key}"]`)});const control=page.locator(`[data-option="${key}"]`);if(await control.evaluate(e=>e.tagName==='SELECT'))await control.selectOption(String(value));else await control.fill(String(value));}
+ if(!tools.find(t=>t.id===id).noInput)await page.locator('.input-label textarea').first().fill(input);
+ await page.locator('.run-button').click();const output=page.locator('.output textarea');await expect(output).toBeVisible();const result=await output.inputValue();if(expected instanceof RegExp)expect(result).toMatch(expected);else expect(result).toContain(expected);
+ if(id==='svg'){await expect(page.locator('.svg-preview')).toBeVisible();expect(await page.locator('.svg-preview').evaluate(async e=>{await e.decode();return e.naturalWidth})).toBe(640)}
+ expect(requests).toEqual([]);expect(outside).toEqual([]);expect(errors).toEqual([]);const data=await page.evaluate(()=>({local:{...localStorage},session:{...sessionStorage}}));expect(Object.keys(data.local).sort()).toEqual(['tb-dark','tb-favorites','tb-lang','tb-recent']);expect(data.session).toEqual({});
+ await context.setOffline(false);const download=page.waitForEvent('download');await page.getByRole('button',{name:'下载结果'}).click();expect((await download).suggestedFilename()).toContain('toolbox-'+id+'.');
+});
+test('Wi-Fi 二维码实际解码、特殊字符、无密码和离线隐私',async({page,context})=>{
+ const requests=[];page.on('request',r=>{if(!['GET','HEAD'].includes(r.method())||!r.url().startsWith(origin)&&!r.url().startsWith('data:'))requests.push(r.url())});await page.goto('/#wifi');await page.waitForLoadState('networkidle');await context.setOffline(true);await page.locator('.input-label textarea').first().fill('中文;网络');await page.locator('[data-option=password]').fill('secret:93854');await page.locator('.run-button').click();await expect(page.locator('.qr-preview')).toBeVisible();let png=PNG.sync.read(Buffer.from((await page.locator('.qr-preview').getAttribute('src')).split(',')[1],'base64'));expect(jsQR(new Uint8ClampedArray(png.data),png.width,png.height)?.data).toBe('WIFI:S:中文\\;网络;T:WPA;P:secret\\:93854;;');await page.locator('[data-option=security]').selectOption('nopass');await page.locator('.run-button').click();await expect(page.locator('.qr-preview')).toBeVisible();png=PNG.sync.read(Buffer.from((await page.locator('.qr-preview').getAttribute('src')).split(',')[1],'base64'));expect(jsQR(new Uint8ClampedArray(png.data),png.width,png.height)?.data).toBe('WIFI:S:中文\\;网络;;');expect(await page.evaluate(()=>JSON.stringify({...localStorage}))).not.toContain('secret:93854');expect(requests).toEqual([]);
+});
+test('首页内容、分类、全部卡片路由、新工具收藏持久化与搜索',async({page})=>{
+ await page.goto('/');await expect(page.locator('.tool-card')).toHaveCount(tools.length);await expect(page.locator('.tool-card .card-footer span')).toHaveCount(tools.length);await expect(page.locator('.category-group')).toHaveCount(categories.length-1);await expect(page.locator('.popular-grid>a')).toHaveCount(6);await expect(page.locator('.recommendation-grid>section')).toHaveCount(3);expect(extraTools.length).toBe(22);
+ const links=await page.locator('.tool-card .card-link').evaluateAll(links=>links.map(a=>a.getAttribute('href')));expect(new Set(links).size).toBe(tools.length);for(const link of links){await page.goto('/'+link);await expect(page.locator('.workspace h1')).toHaveText(tools.find(t=>'#'+t.id===link).name[0]);}
+ await page.goto('/#stats');await page.locator('.workspace-heading .favorite').click();await page.reload();await page.getByRole('button',{name:'返回工具箱'}).click();await page.getByRole('button',{name:/我的收藏/}).click();await expect(page.locator('.tool-card h3')).toHaveText('字数统计');await page.getByRole('button',{name:/发现工具/}).click();
+ for(const [q,name] of [['统计文章多少字','字数统计'],['删除重复行','文本去重与排序'],['把json转yaml','JSON 转 YAML'],['表格转json','CSV 转 JSON'],['子网掩码','IPv4 子网计算'],['wifi二维码','Wi-Fi 二维码'],['sha256','SHA-256 文本摘要'],['convert json to csv','JSON 转 CSV 表格']]){await page.getByRole('textbox',{name:'搜索工具'}).fill(q);await expect(page.locator('.tool-card h3').first()).toHaveText(name)}
+});
+test('新增工具在中英文、明暗主题和移动视口下正常显示',async({page})=>{
+ for(const [width,en,dark] of [[1440,false,false],[390,false,true],[320,true,false],[768,true,true]]){await page.setViewportSize({width,height:900});await page.goto('/');await page.evaluate(({en,dark})=>{localStorage.setItem('tb-lang',JSON.stringify(en?'en':'zh'));localStorage.setItem('tb-dark',JSON.stringify(dark));},{en,dark});await page.reload();for(const t of extraTools){await page.goto('/#'+t.id);await expect(page.locator('.workspace h1')).toHaveText(t.name[en?1:0]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${t.id} ${width}`).toBe(true)}await page.goto('/');await page.screenshot({path:width===1440?'test-results/product-improvements-artifacts/screenshots/expanded-desktop.png':width===390?'test-results/product-improvements-artifacts/screenshots/expanded-mobile.png':`test-results/product-improvements-artifacts/screenshots/expanded-${width}.png`,fullPage:true})}
+});

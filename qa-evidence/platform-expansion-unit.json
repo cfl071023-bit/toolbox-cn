@@ -1,0 +1,1479 @@
+{
+  "numTotalTestSuites": 8,
+  "numPassedTestSuites": 8,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 116,
+  "numPassedTests": 116,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1794227545904,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines stats produces the expected result",
+          "status": "passed",
+          "title": "stats produces the expected result",
+          "duration": 10.964400000000069,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines case produces the expected result",
+          "status": "passed",
+          "title": "case produces the expected result",
+          "duration": 0.1456999999998061,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines dedupe produces the expected result",
+          "status": "passed",
+          "title": "dedupe produces the expected result",
+          "duration": 0.10380000000009204,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines url-codec produces the expected result",
+          "status": "passed",
+          "title": "url-codec produces the expected result",
+          "duration": 0.08950000000004366,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines url-parse produces the expected result",
+          "status": "passed",
+          "title": "url-parse produces the expected result",
+          "duration": 0.2155999999999949,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines json-yaml produces the expected result",
+          "status": "passed",
+          "title": "json-yaml produces the expected result",
+          "duration": 2.1847000000000207,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines yaml-json produces the expected result",
+          "status": "passed",
+          "title": "yaml-json produces the expected result",
+          "duration": 2.7778999999998177,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines json-csv produces the expected result",
+          "status": "passed",
+          "title": "json-csv produces the expected result",
+          "duration": 0.4371000000001004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines csv-json produces the expected result",
+          "status": "passed",
+          "title": "csv-json produces the expected result",
+          "duration": 0.9462999999998374,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines xml produces the expected result",
+          "status": "passed",
+          "title": "xml produces the expected result",
+          "duration": 2.999900000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines sql produces the expected result",
+          "status": "passed",
+          "title": "sql produces the expected result",
+          "duration": 8.491899999999987,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines markdown produces the expected result",
+          "status": "passed",
+          "title": "markdown produces the expected result",
+          "duration": 10.454600000000028,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines html produces the expected result",
+          "status": "passed",
+          "title": "html produces the expected result",
+          "duration": 0.15409999999997126,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines hash produces the expected result",
+          "status": "passed",
+          "title": "hash produces the expected result",
+          "duration": 3.0128000000001975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines token produces the expected result",
+          "status": "passed",
+          "title": "token produces the expected result",
+          "duration": 0.25040000000012697,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines base produces the expected result",
+          "status": "passed",
+          "title": "base produces the expected result",
+          "duration": 0.16030000000000655,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines temperature produces the expected result",
+          "status": "passed",
+          "title": "temperature produces the expected result",
+          "duration": 0.1065000000000964,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines roman produces the expected result",
+          "status": "passed",
+          "title": "roman produces the expected result",
+          "duration": 0.11849999999981264,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines subnet produces the expected result",
+          "status": "passed",
+          "title": "subnet produces the expected result",
+          "duration": 0.3324000000000069,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines jwt produces the expected result",
+          "status": "passed",
+          "title": "jwt produces the expected result",
+          "duration": 0.24309999999991305,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines svg produces the expected result",
+          "status": "passed",
+          "title": "svg produces the expected result",
+          "duration": 0.11019999999984975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines roundtrips CSV with commas, quotes, newlines and unioned headers",
+          "status": "passed",
+          "title": "roundtrips CSV with commas, quotes, newlines and unioned headers",
+          "duration": 1.1347000000000662,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines prevents CSV formula injection",
+          "status": "passed",
+          "title": "prevents CSV formula injection",
+          "duration": 0.2341999999998734,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines roundtrips YAML and JSON with Unicode and nested values",
+          "status": "passed",
+          "title": "roundtrips YAML and JSON with Unicode and nested values",
+          "duration": 2.0007000000000517,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines supports reverse operations and modes",
+          "status": "passed",
+          "title": "supports reverse operations and modes",
+          "duration": 0.7067999999999302,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines retains repeated URL query parameters and verifies Wi-Fi escaping",
+          "status": "passed",
+          "title": "retains repeated URL query parameters and verifies Wi-Fi escaping",
+          "duration": 1.394399999999905,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines base rejects invalid input",
+          "status": "passed",
+          "title": "base rejects invalid input",
+          "duration": 0.14430000000015752,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines temperature rejects invalid input",
+          "status": "passed",
+          "title": "temperature rejects invalid input",
+          "duration": 0.09039999999981774,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines roman rejects invalid input",
+          "status": "passed",
+          "title": "roman rejects invalid input",
+          "duration": 0.1995999999999185,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines roman rejects invalid input",
+          "status": "passed",
+          "title": "roman rejects invalid input",
+          "duration": 0.08570000000008804,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines subnet rejects invalid input",
+          "status": "passed",
+          "title": "subnet rejects invalid input",
+          "duration": 0.10869999999999891,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines jwt rejects invalid input",
+          "status": "passed",
+          "title": "jwt rejects invalid input",
+          "duration": 0.07649999999989632,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines yaml-json rejects invalid input",
+          "status": "passed",
+          "title": "yaml-json rejects invalid input",
+          "duration": 0.6684999999999945,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines csv-json rejects invalid input",
+          "status": "passed",
+          "title": "csv-json rejects invalid input",
+          "duration": 0.6803999999999633,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines csv-json rejects invalid input",
+          "status": "passed",
+          "title": "csv-json rejects invalid input",
+          "duration": 0.1900999999998021,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines json-csv rejects invalid input",
+          "status": "passed",
+          "title": "json-csv rejects invalid input",
+          "duration": 0.08749999999986358,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines json-csv rejects invalid input",
+          "status": "passed",
+          "title": "json-csv rejects invalid input",
+          "duration": 0.07349999999996726,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines url-codec rejects invalid input",
+          "status": "passed",
+          "title": "url-codec rejects invalid input",
+          "duration": 0.06310000000007676,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines url-parse rejects invalid input",
+          "status": "passed",
+          "title": "url-parse rejects invalid input",
+          "duration": 0.08559999999988577,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines xml rejects invalid input",
+          "status": "passed",
+          "title": "xml rejects invalid input",
+          "duration": 0.24080000000003565,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines svg rejects invalid input",
+          "status": "passed",
+          "title": "svg rejects invalid input",
+          "duration": 0.10320000000001528,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "new working tool engines"
+          ],
+          "fullName": "new working tool engines token rejects invalid input",
+          "status": "passed",
+          "title": "token rejects invalid input",
+          "duration": 0.06809999999995853,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794227546971,
+      "endTime": 1794227547024.2407,
+      "status": "passed",
+      "message": "",
+      "name": "<project>/tests/advanced.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory retains the original thirty and adds twenty-five unique tools",
+          "status": "passed",
+          "title": "retains the original thirty and adds twenty-five unique tools",
+          "duration": 3.76460000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 合并pdf",
+          "status": "passed",
+          "title": "discovers 合并pdf",
+          "duration": 1.168899999999951,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 提取PDF页面",
+          "status": "passed",
+          "title": "discovers 提取PDF页面",
+          "duration": 0.504099999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers crop image",
+          "status": "passed",
+          "title": "discovers crop image",
+          "duration": 0.36899999999997135,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 把照片改尺寸",
+          "status": "passed",
+          "title": "discovers 把照片改尺寸",
+          "duration": 0.2525999999999726,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers json转xml",
+          "status": "passed",
+          "title": "discovers json转xml",
+          "duration": 0.2008999999999901,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers json to toml",
+          "status": "passed",
+          "title": "discovers json to toml",
+          "duration": 0.15879999999998518,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 识别二维码",
+          "status": "passed",
+          "title": "discovers 识别二维码",
+          "duration": 0.21330000000000382,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 相隔几天",
+          "status": "passed",
+          "title": "discovers 相隔几天",
+          "duration": 0.25970000000000937,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "expansion inventory"
+          ],
+          "fullName": "expansion inventory discovers 正则测试",
+          "status": "passed",
+          "title": "discovers 正则测试",
+          "duration": 0.23500000000001364,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "md-table deterministic result",
+          "status": "passed",
+          "title": "md-table deterministic result",
+          "duration": 1.3897999999999797,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "md-table invalid input rejected",
+          "status": "passed",
+          "title": "md-table invalid input rejected",
+          "duration": 0.9295999999999935,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "percentage deterministic result",
+          "status": "passed",
+          "title": "percentage deterministic result",
+          "duration": 0.10329999999999018,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "percentage invalid input rejected",
+          "status": "passed",
+          "title": "percentage invalid input rejected",
+          "duration": 0.1149000000000342,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "units deterministic result",
+          "status": "passed",
+          "title": "units deterministic result",
+          "duration": 10.215499999999963,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "units invalid input rejected",
+          "status": "passed",
+          "title": "units invalid input rejected",
+          "duration": 0.15579999999999927,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "date-calc deterministic result",
+          "status": "passed",
+          "title": "date-calc deterministic result",
+          "duration": 1.0926000000000045,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "date-calc invalid input rejected",
+          "status": "passed",
+          "title": "date-calc invalid input rejected",
+          "duration": 0.13220000000001164,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "css-code deterministic result",
+          "status": "passed",
+          "title": "css-code deterministic result",
+          "duration": 176.6438,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "css-code invalid input rejected",
+          "status": "passed",
+          "title": "css-code invalid input rejected",
+          "duration": 1.0726999999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "js-code deterministic result",
+          "status": "passed",
+          "title": "js-code deterministic result",
+          "duration": 82.68789999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "js-code invalid input rejected",
+          "status": "passed",
+          "title": "js-code invalid input rejected",
+          "duration": 1.2221999999999298,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-view deterministic result",
+          "status": "passed",
+          "title": "json-view deterministic result",
+          "duration": 0.14269999999999072,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-view invalid input rejected",
+          "status": "passed",
+          "title": "json-view invalid input rejected",
+          "duration": 0.13170000000002346,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-diff deterministic result",
+          "status": "passed",
+          "title": "json-diff deterministic result",
+          "duration": 0.7427000000000135,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-diff invalid input rejected",
+          "status": "passed",
+          "title": "json-diff invalid input rejected",
+          "duration": 0.1208000000000311,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-toml deterministic result",
+          "status": "passed",
+          "title": "json-toml deterministic result",
+          "duration": 9.393300000000067,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-toml invalid input rejected",
+          "status": "passed",
+          "title": "json-toml invalid input rejected",
+          "duration": 0.17190000000005057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "toml-json deterministic result",
+          "status": "passed",
+          "title": "toml-json deterministic result",
+          "duration": 0.4821999999999207,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "toml-json invalid input rejected",
+          "status": "passed",
+          "title": "toml-json invalid input rejected",
+          "duration": 0.3311999999999671,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "list-compare deterministic result",
+          "status": "passed",
+          "title": "list-compare deterministic result",
+          "duration": 0.13230000000010023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "list-compare invalid input rejected",
+          "status": "passed",
+          "title": "list-compare invalid input rejected",
+          "duration": 0.10050000000001091,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-flat deterministic result",
+          "status": "passed",
+          "title": "json-flat deterministic result",
+          "duration": 46.90560000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "json-flat invalid input rejected",
+          "status": "passed",
+          "title": "json-flat invalid input rejected",
+          "duration": 0.20899999999994634,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "table escapes pipes, backslashes and line breaks",
+          "status": "passed",
+          "title": "table escapes pipes, backslashes and line breaks",
+          "duration": 0.5206999999999198,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "percent share, discount and change; zero and overflow",
+          "status": "passed",
+          "title": "percent share, discount and change; zero and overflow",
+          "duration": 0.23130000000003292,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "date leap year, negative interval and impossible calendar dates",
+          "status": "passed",
+          "title": "date leap year, negative interval and impossible calendar dates",
+          "duration": 0.1634999999999991,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "unit dimensions, mass, area, volume and speed",
+          "status": "passed",
+          "title": "unit dimensions, mass, area, volume and speed",
+          "duration": 0.2220999999999549,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "JSON equality ignores object key order but respects array order",
+          "status": "passed",
+          "title": "JSON equality ignores object key order but respects array order",
+          "duration": 0.28930000000002565,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "tree limits keep large/deep data from blocking UI",
+          "status": "passed",
+          "title": "tree limits keep large/deep data from blocking UI",
+          "duration": 0.40069999999991524,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "flatten/nest guards prototype pollution, conflicts and dotted keys",
+          "status": "passed",
+          "title": "flatten/nest guards prototype pollution, conflicts and dotted keys",
+          "duration": 0.6126000000000431,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "parser minifiers preserve URL strings, regex literals and CSS values",
+          "status": "passed",
+          "title": "parser minifiers preserve URL strings, regex literals and CSS values",
+          "duration": 9.629000000000019,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "TOML round trip preserves arrays and tables",
+          "status": "passed",
+          "title": "TOML round trip preserves arrays and tables",
+          "duration": 0.7343999999999369,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "limits both comparison inputs before parsing",
+          "status": "passed",
+          "title": "limits both comparison inputs before parsing",
+          "duration": 0.27920000000005984,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "flattening retains arrays and round-trips a nested object",
+          "status": "passed",
+          "title": "flattening retains arrays and round-trips a nested object",
+          "duration": 0.30599999999992633,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794227546208,
+      "endTime": 1794227546564.306,
+      "status": "passed",
+      "message": "",
+      "name": "<project>/tests/platform.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: 我想让照片小一点",
+          "status": "passed",
+          "title": "task search: 我想让照片小一点",
+          "duration": 2.080600000000004,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: 我想比较两个文档",
+          "status": "passed",
+          "title": "task search: 我想比较两个文档",
+          "duration": 0.6012000000000057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: can you help me clean duplicate text",
+          "status": "passed",
+          "title": "task search: can you help me clean duplicate text",
+          "duration": 0.4129000000000076,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: I need to count my words",
+          "status": "passed",
+          "title": "task search: I need to count my words",
+          "duration": 0.22479999999998768,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: 给链接做二维码",
+          "status": "passed",
+          "title": "task search: 给链接做二维码",
+          "duration": 0.3289000000000044,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: 转换表格数据",
+          "status": "passed",
+          "title": "task search: 转换表格数据",
+          "duration": 0.20000000000001705,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: convert CSV to JSON",
+          "status": "passed",
+          "title": "task search: convert CSV to JSON",
+          "duration": 0.16890000000000782,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task search: json转yaml",
+          "status": "passed",
+          "title": "task search: json转yaml",
+          "duration": 0.20130000000000337,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "task entries refer only to existing working tools",
+          "status": "passed",
+          "title": "task entries refer only to existing working tools",
+          "duration": 0.7299000000000149,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps an explicit Wi-Fi request ahead of generic link QR generation",
+          "status": "passed",
+          "title": "keeps an explicit Wi-Fi request ahead of generic link QR generation",
+          "duration": 0.34030000000001337,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "does not pretend to convert unsupported office documents",
+          "status": "passed",
+          "title": "does not pretend to convert unsupported office documents",
+          "duration": 0.39159999999998263,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "provides bilingual actions, recovery guidance and mode-aware Base64 labels",
+          "status": "passed",
+          "title": "provides bilingual actions, recovery guidance and mode-aware Base64 labels",
+          "duration": 2.6507000000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "shares only a tool location, removing queries and previous fragments",
+          "status": "passed",
+          "title": "shares only a tool location, removing queries and previous fragments",
+          "duration": 0.1144999999999925,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794227546154,
+      "endTime": 1794227546163.1145,
+      "status": "passed",
+      "message": "",
+      "name": "<project>/tests/product-ux.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines formats JSON and rejects invalid input",
+          "status": "passed",
+          "title": "formats JSON and rejects invalid input",
+          "duration": 1.9540999999999826,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines preserves large numbers, decimal precision, repeated keys and escape sequences",
+          "status": "passed",
+          "title": "preserves large numbers, decimal precision, repeated keys and escape sequences",
+          "duration": 0.4187000000000012,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines rejects impossible dates and handles leap years and explicit timezone",
+          "status": "passed",
+          "title": "rejects impossible dates and handles leap years and explicit timezone",
+          "duration": 12.8981,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines finds mixed-language or natural queries: 将文字转成Base64",
+          "status": "passed",
+          "title": "finds mixed-language or natural queries: 将文字转成Base64",
+          "duration": 1.2435999999999865,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines finds mixed-language or natural queries: generate a qr code",
+          "status": "passed",
+          "title": "finds mixed-language or natural queries: generate a qr code",
+          "duration": 0.5226999999999862,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines finds mixed-language or natural queries: generate uuid",
+          "status": "passed",
+          "title": "finds mixed-language or natural queries: generate uuid",
+          "duration": 0.21949999999998226,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines roundtrips Chinese, emoji and Unicode Base64 with upstream utility",
+          "status": "passed",
+          "title": "roundtrips Chinese, emoji and Unicode Base64 with upstream utility",
+          "duration": 0.4706000000000188,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines converts seconds, milliseconds and ISO consistently",
+          "status": "passed",
+          "title": "converts seconds, milliseconds and ISO consistently",
+          "duration": 0.3406999999999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines generates UUID v4 without duplicates in a sample",
+          "status": "passed",
+          "title": "generates UUID v4 without duplicates in a sample",
+          "duration": 1.1252000000000066,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines converts colors and rejects invalid ones",
+          "status": "passed",
+          "title": "converts colors and rejects invalid ones",
+          "duration": 1.2079999999999984,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "tool engines"
+          ],
+          "fullName": "tool engines compares text including Chinese and script-like plain text",
+          "status": "passed",
+          "title": "compares text including Chinese and script-like plain text",
+          "duration": 0.5082999999999913,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "discovery"
+          ],
+          "fullName": "discovery finds compression for 图片变小",
+          "status": "passed",
+          "title": "finds compression for 图片变小",
+          "duration": 0.45299999999997453,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "discovery"
+          ],
+          "fullName": "discovery finds compression for 照片太大",
+          "status": "passed",
+          "title": "finds compression for 照片太大",
+          "duration": 0.18360000000001264,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "discovery"
+          ],
+          "fullName": "discovery finds compression for make my image smaller",
+          "status": "passed",
+          "title": "finds compression for make my image smaller",
+          "duration": 0.15250000000003183,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "discovery"
+          ],
+          "fullName": "discovery finds compression for compress images",
+          "status": "passed",
+          "title": "finds compression for compress images",
+          "duration": 0.1361999999999739,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "discovery"
+          ],
+          "fullName": "discovery filters, finds QR codes, and handles empty results",
+          "status": "passed",
+          "title": "filters, finds QR codes, and handles empty results",
+          "duration": 0.9171999999999798,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1794227546193,
+      "endTime": 1794227546215.9172,
+      "status": "passed",
+      "message": "",
+      "name": "<project>/tests/unit.test.js"
+    }
+  ]
+}

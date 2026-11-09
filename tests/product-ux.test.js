@@ -1,0 +1,10 @@
+import {it,expect} from 'vitest';
+import {tools,searchTools} from '../src/catalog';
+import {tasks,unsupportedDocumentQuery} from '../src/tasks';
+import {actionLabel,errorMessage,toolLink} from '../src/tool-ux';
+it.each([['我想让照片小一点','image'],['我想比较两个文档','diff'],['can you help me clean duplicate text','dedupe'],['I need to count my words','stats'],['给链接做二维码','qr'],['转换表格数据','csv-json'],['convert CSV to JSON','csv-json'],['json转yaml','json-yaml']])('task search: %s',(q,id)=>expect(searchTools(q)[0]?.id).toBe(id));
+it('task entries refer only to existing working tools',()=>{expect(tools).toHaveLength(55);for(const task of tasks)for(const id of task.tools)expect(tools.some(t=>t.id===id)).toBe(true)});
+it('keeps an explicit Wi-Fi request ahead of generic link QR generation',()=>{expect(searchTools('create a wifi qr code')[0]?.id).toBe('wifi')});
+it('does not pretend to convert unsupported office documents',()=>{expect(searchTools('PDF转Word')).toHaveLength(0);expect(unsupportedDocumentQuery('PDF转Word')).toBe(true);expect(unsupportedDocumentQuery('word count')).toBe(false)});
+it('provides bilingual actions, recovery guidance and mode-aware Base64 labels',()=>{for(const t of tools)for(const lang of ['zh','en']){expect(actionLabel(t.id,lang,'encode').length).toBeGreaterThan(0);expect(errorMessage(t.id,lang).length).toBeGreaterThan(15)}expect(actionLabel('base64','zh','decode')).toBe('还原成文字');expect(errorMessage('json','zh')).toContain('双引号')});
+it('shares only a tool location, removing queries and previous fragments',()=>{expect(toolLink('https://example.com/?password=private#old','json')).toBe('https://example.com/#json');expect(toolLink('http://localhost:5178/?text=你好#input-secret','diff')).toBe('http://localhost:5178/#diff')});

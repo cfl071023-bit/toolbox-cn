@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/CorentinTh/it-tools",
+  "commit": "d505845f918e946ec300af7b36efc107e2f66e9e",
+  "commitDate": "2026-02-12T01:59:29+01:00",
+  "commitSubject": "chore(readme): remove sponsors section (#1733)",
+  "packageVersionLabel": "2024.10.22-7ca5933",
+  "licenseDeclaredByUpstream": "GNU GPLv3",
+  "distributionLicenseForToolBoxCN": "GPL-3.0-only",
+  "licenseSHA256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8"
+}

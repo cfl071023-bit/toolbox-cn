@@ -1,0 +1,28 @@
+import { defineTool } from '../tool';
+import { translate as t } from '@/plugins/i18n.plugin';
+
+export const tool = defineTool({
+  name: t('tools.crontab-generator.title'),
+  path: '/crontab-generator',
+  description: t('tools.crontab-generator.description'),
+  keywords: [
+    'crontab',
+    'generator',
+    'cronjob',
+    'cron',
+    'schedule',
+    'parse',
+    'expression',
+    'year',
+    'month',
+    'week',
+    'day',
+    'minute',
+    'second',
+    'aws',
+  ],
+  component: () => import('./crontab-generator.vue'),
+  icon: defineAsyncComponent(() => import('@vicons/tabler/es/Alarm')),
+  npmPackages: ['cronstrue'],
+  category: 'Network',
+});

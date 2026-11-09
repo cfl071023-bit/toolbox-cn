@@ -1,0 +1,14 @@
+import {describe,it,expect} from 'vitest';
+import {runAdvanced,wifiText} from '../src/advanced';
+import {cases} from './advanced-cases';
+import Papa from 'papaparse';
+import {parse} from 'yaml';
+describe('new working tool engines',()=>{
+ it.each(cases)('%s produces the expected result',async(id,input,options,expected)=>{const result=await runAdvanced(id,input,options);if(expected instanceof RegExp)expect(result).toMatch(expected);else expect(result).toContain(expected)});
+ it('roundtrips CSV with commas, quotes, newlines and unioned headers',()=>{const rows=[{name:'a,"b"\nc',city:'上海'},{name:'小明',extra:'新字段'}];const result=runAdvanced('json-csv',JSON.stringify(rows));expect(Papa.parse(result,{header:true}).data).toEqual([{name:rows[0].name,city:'上海',extra:''},{name:'小明',city:'',extra:'新字段'}]);expect(JSON.parse(runAdvanced('csv-json',result))[0].name).toBe(rows[0].name)});
+ it('prevents CSV formula injection',()=>{const csv=runAdvanced('json-csv','[{"a":"=1+1","b":"@SUM(A1)"}]');expect(Papa.parse(csv,{header:true}).data[0]).toEqual({a:"'=1+1",b:"'@SUM(A1)"})});
+ it('roundtrips YAML and JSON with Unicode and nested values',()=>{const value={姓名:'小明',items:[1,true,null,{nested:'你好'}]};const yaml=runAdvanced('json-yaml',JSON.stringify(value));expect(parse(yaml)).toEqual(value);expect(JSON.parse(runAdvanced('yaml-json',yaml))).toEqual(value)});
+ it('supports reverse operations and modes',()=>{expect(runAdvanced('url-codec','%E4%BD%A0%E5%A5%BD',{direction:'decode'})).toBe('你好');expect(runAdvanced('html','&lt;b&gt;&amp;&lt;/b&gt;',{direction:'decode'})).toBe('<b>&</b>');expect(runAdvanced('case','Hello world',{format:'camel'})).toBe('helloWorld');expect(runAdvanced('case','Hello world',{format:'snake'})).toBe('hello_world');expect(runAdvanced('base','-FF',{from:16,to:10})).toBe('-255');expect(runAdvanced('roman','MMXXVI')).toBe('2026');expect(runAdvanced('temperature','32',{unit:'F'})).toContain('0 °C')});
+ it('retains repeated URL query parameters and verifies Wi-Fi escaping',()=>{const u=JSON.parse(runAdvanced('url-parse','https://example.com/?tag=1&tag=2'));expect(u.parameters).toHaveLength(2);expect(wifiText('测试;网',{password:'a:b\\c'})).toBe('WIFI:S:测试\\;网;T:WPA;P:a\\:b\\\\c;;');expect(wifiText('Open',{security:'nopass'})).toBe('WIFI:S:Open;;');expect(()=>wifiText('Test',{password:''})).toThrow()});
+ it.each([['base','102',{from:2}],['temperature','-274',{}],['roman','IIII',{}],['roman','4000',{}],['subnet','999.0.0.1/24',{}],['jwt','broken',{}],['yaml-json','a: [',{}],['csv-json','a,a\n1,2',{}],['csv-json','a,b\n1',{}],['json-csv','{"a":1}',{}],['json-csv','[{"nested":{}}]',{}],['url-codec','%ZZ',{direction:'decode'}],['url-parse','broken',{}],['xml','<root><a></root>',{}],['svg','text',{width:0}],['token','',{length:500}]])('%s rejects invalid input', (id,value,opts)=>expect(()=>runAdvanced(id,value,opts)).toThrow());
+});

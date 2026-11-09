@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/sharevb/it-tools",
+  "branch": "chore/all-my-stuffs",
+  "commit": "b5eace85dbdb247f832b2aa9967b9d570a84d1ce",
+  "commitDate": "2026-11-08T18:45:54+01:00",
+  "packageVersion": "2026.10.25",
+  "licenseDeclared": "GNU GPLv3",
+  "licenseSHA256": "81cbae84a29ce7e770bf2bc7b178e50bda0ce8de6067aba661b0bc7b05b562f8",
+  "sourceDirectories": 480,
+  "scope": "Static source inventory only. Unselected upstream directories have not been functionally tested."
+}

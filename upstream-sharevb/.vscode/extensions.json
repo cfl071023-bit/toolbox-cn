@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "oxc.oxc-vscode",
+    "lokalise.i18n-ally",
+    "ms-vscode-remote.remote-wsl"
+  ]
+}

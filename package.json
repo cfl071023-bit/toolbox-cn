@@ -1,0 +1,58 @@
+{
+  "name": "toolbox-cn",
+  "version": "0.3.0-dev",
+  "private": true,
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5178 --strictPort",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "prebuild": "node scripts/source.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5179 --strictPort",
+    "test:smoke": "node scripts/production-smoke.mjs",
+    "release:package": "node scripts/release-package.mjs"
+  },
+  "dependencies": {
+    "change-case": "^4.1.2",
+    "colord": "2.11.0",
+    "convert": "^8.0.2",
+    "csso": "^5.0.5",
+    "diff": "8.0.4",
+    "dompurify": "^3.4.17",
+    "flatten-anything": "^4.0.4",
+    "js-base64": "3.7.8",
+    "jsqr": "^1.4.0",
+    "jwt-decode": "^4.0.0",
+    "lodash-es": "4.18.1",
+    "lucide-vue-next": "0.468.0",
+    "marked": "^15.0.12",
+    "nestify-anything": "^4.0.2",
+    "netmask": "^2.0.2",
+    "papaparse": "^5.5.3",
+    "prettier": "^3.9.10",
+    "qpdf-wasm-esm-embedded": "^1.1.1",
+    "qrcode": "1.5.4",
+    "smol-toml": "^1.9.1",
+    "sql-formatter": "^15.6.10",
+    "terser": "^5.51.2",
+    "uuid": "11.1.1",
+    "vue": "3.5.45",
+    "xml-formatter": "^3.6.7",
+    "xml-js": "^1.6.11",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@vitejs/plugin-vue": "5.2.4",
+    "pdf-lib": "^1.17.1",
+    "pngjs": "7.0.0",
+    "vite": "6.4.5",
+    "vitest": "5.1.0"
+  },
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0",
+    "npm": ">=10.0.0"
+  }
+}

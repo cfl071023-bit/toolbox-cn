@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "files": 2401,
+  "realCredentialFindings": 0,
+  "personalLocalPathFindings": 0,
+  "excluded": [
+    "node_modules",
+    "dist",
+    ".git metadata",
+    "raw test-results",
+    "local release ZIPs",
+    ".env files"
+  ],
+  "preservation": "Original project, QA evidence and frozen releases remain unchanged; publish copy uses portable QA records.",
+  "reviewedPublicFixtures": [
+    {
+      "file": "upstream-sharevb/locales/ar.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "f42b3cf2a9637c90094a05f352d006ac82041f7be3761c035b9243063d886eae"
+    },
+    {
+      "file": "upstream-sharevb/locales/de.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "9f3b98faf4b28708ad920d4112eb4c92bae295da98596667cab6d35c43915238"
+    },
+    {
+      "file": "upstream-sharevb/locales/el.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "d3791d36c5e0f4b2daa2568d2748542e5d14c423a240d95e07cf0c9c7e46a227"
+    },
+    {
+      "file": "upstream-sharevb/locales/en.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "8b72b864990cd75c59acb88175ae9b07dea0820e5850313b53681a0dac992b5e"
+    },
+    {
+      "file": "upstream-sharevb/locales/es.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "e79a43ef4228be24c646ed1954217429daefb84d2bb82175a58d8fad30a58f5e"
+    },
+    {
+      "file": "upstream-sharevb/locales/fr.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "226f70cad041197939a81b0df34664df6cdabfe88e70ef63b5489c3a2a30c1d9"
+    },
+    {
+      "file": "upstream-sharevb/locales/hi.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "3a5dbd317b82f783522f001507d87da724a329490623e82e4a3ed242108b6048"
+    },
+    {
+      "file": "upstream-sharevb/locales/it.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "62613ac818b2dbd189bbbfe28693642cfa4ab2946a96d5d6cfe195e86d011db3"
+    },
+    {
+      "file": "upstream-sharevb/locales/ko.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "9f88c4797b657457957a9ca9db8823e1985cb5678d512f295761651ef8dab1bf"
+    },
+    {
+      "file": "upstream-sharevb/locales/nl.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "5f2d8f4b7746e197c53af87a2895e98f557ed5569dcd6c86d0aaf95e059eec30"
+    },
+    {
+      "file": "upstream-sharevb/locales/pt.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "b1414b7f7c8ee798fbc447591e884dca58b9f140ace497545728edd54ad926e7"
+    },
+    {
+      "file": "upstream-sharevb/locales/ru.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "83c99003f391df54cd6b2737616b5526872f5f65da74835cf520b879d8c0194a"
+    },
+    {
+      "file": "upstream-sharevb/locales/tr.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "76b2fdb1a2bc5da2ea1bbeb8ed2cd8f4f3d01650071a54d950297d1c21fccb07"
+    },
+    {
+      "file": "upstream-sharevb/locales/vi.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "dccf0de00867c3ab138456b31caa4bca16fcfe4338f31f9bd50d714d8a05aea4"
+    },
+    {
+      "file": "upstream-sharevb/locales/zh-TW.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "56e6b723b5163db4d8a0eb7d1819915b93d449d50742c7a3eb210745ffd7e660"
+    },
+    {
+      "file": "upstream-sharevb/locales/zh.yml",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "1362e0dc6b1a02e399841b8a2bad4c143a65c704938a728b851260a9890ed4a5"
+    },
+    {
+      "file": "upstream-sharevb/patches/node-forge@1.4.0.patch",
+      "rule": "privateKey",
+      "reason": "Unmodified publicly available upstream cryptography test fixture; not an account credential",
+      "sha256": "c146ff0813698d1450d15345fcc67ebdabcff856b09b0208604353362ff0c63b"
+    },
+    {
+      "file": "upstream-sharevb/src/tools/certificate-key-parser/certificate-key-parser.service.test.ts",
+      "rule": "privateKey",
+      "reason": "Unmodified publicly available upstream cryptography test fixture; not an account credential",
+      "sha256": "1f18566d30bde951c5571964ffc7c6698cf0de4d58c6412150552cd7749150e3"
+    },
+    {
+      "file": "upstream-sharevb/src/tools/restic-command-generator/restic-command-generator.service.test.ts",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "f4c4a846792a280c0309efd246eaac4bd06e7e564af72e3a98abad49066f4586"
+    },
+    {
+      "file": "upstream-sharevb/src/tools/restic-command-generator/restic-command-generator.vue",
+      "rule": "personalPath",
+      "reason": "Unmodified upstream localized home-directory example placeholder",
+      "sha256": "2dcd29a8383c694ccc0a48149c2a79bd8274fb813ea82efeed52b44fc506356e"
+    }
+  ],
+  "sourceArchiveEntriesReviewed": 2758,
+  "excludedUnusedVendorAssets": 359
+}
